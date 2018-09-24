@@ -1,0 +1,83 @@
+header,
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navbar {
+  border-radius: 0 !important;
+}
+
+.btn-outline-success:hover {
+  color: white !important;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar-nav {
+  display: inline-block!important;
+}
+
+.navbar {
+  display: block !important;
+  margin-bottom: 0 !important;
+}
+
+.navbar-right-align {
+  text-align: right!important
+}
+
+.everibite-top {
+  top: 0
+}
+
+.everibite-bottom {
+  bottom: 0
+}
+
+.everibite-bar {
+  width: 100%;
+  overflow: hidden
+}
+
+.everibite-bar-item {
+  padding: 8px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+  margin-right: 2px;
+  margin-top: 10px
+}
+
+.everibite-right-align {
+  text-align: right!important
+}
+
+.everibite-right {
+  float: right!important;
+}
+
+.everibite-wide {
+  letter-spacing: 4px
+}
+
+.everibite-justify {
+  text-align: justify!important
+}
+
+.everibite-center {
+  text-align: center!important
+}
+
+.everibite-button {
+  border: none;
+  display: inline-block;
+  padding: 8px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}

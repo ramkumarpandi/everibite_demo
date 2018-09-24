@@ -1,0 +1,8 @@
+.searchBox select option {
+    margin: 50px;
+    color: #000;
+    background: url('./images/loc.png') no-repeat;
+}
+.searchBox .form-group-lg select.form-control{
+    height:60px;
+}

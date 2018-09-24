@@ -1,0 +1,29 @@
+.mainBg{
+	background:url('./images/food.png') no-repeat center center fixed;
+	background-size:cover;
+}
+.imgPart img{
+	width:300px;
+	height:200px;
+}
+.carousel-control.left,.carousel-control.right{
+	display:none;
+}
+.item1{
+padding-top:5rem
+}
+.item2{
+	padding-top:11rem;
+}
+.item3{
+	margin-top:5rem;
+}
+.everibite-btn-style{
+	background:#fff !important;
+	border:1px solid #28a745 !important; 
+}
+.formBorder .form-control{
+	box-shadow:none !important; 
+	box-sizing:none !important;
+}
+

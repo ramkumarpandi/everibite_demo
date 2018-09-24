@@ -1,0 +1,554 @@
+.everibiteViga{
+    font-family:'Viga',sans-serif;
+}
+.everibiteRobotoRegular{
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+}
+.everibiteRobotoMedium{
+    font-family:'Roboto',sans-serif;
+    font-weight:500;
+}
+.everibiteRobotoBold{
+    font-family:'Roboto',sans-serif;
+    font-weight:700;
+}
+.everibiteRobotoLight{
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+}
+:root{
+    --mainbg-color:#f9faf5;
+    --mainFooterBg-color:#3c3c3c;
+    --RegistrationBg-color:#fdfdfa;
+    --words-color:#666666;
+    --warmGrey-color:#999999;
+    --other-color:#4b4b4b;
+    --nonVeg-color:#e57575;
+    --generalBlack-color:#000;
+    --generalWhite-color:#fff;
+    --blackShade-color:#333333;
+    --greenShade1-color:#3a8d1e;
+    --greenShade2-color:#2a8306;
+    --greenShade3-color:#6cc018;
+    --signin-google:#6a6969;
+    --button-color:#3d9020;
+    --additionalGreen-color:#008700;
+    --backIcon-color:#4fba6f;
+    --progressbarBg-color:#e6e0e0;
+    --DBOText-color:#5f5f5f;
+    --fav-color:rgba(246,51,51,0.75);
+    --whiteShade-color:rgba(255,255,255,0.5);
+    --fbColor:#3a559f;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<NavBar>>>>>>>>>>>>>>>>>>>>>*/
+.navButton{
+    color:var(--greenShade1-color);
+    background:var(--generalWhite-color);
+    border-color: var(--greenShade1-color)!important;
+    font-size:18px !important;
+    width:120px;
+    float:left;
+}
+.navButton:hover,.navButton:focus{
+    background:var(--greenShade3-color);
+    color:var(--generalWhite-color);
+    border-color: var(--greenShade3-color) !important;
+}
+.everibiteCart{
+    /*color:var(--greenShade2-color);*/
+    margin-top:3px;
+    float: left;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<NavBar>>>>>>>>>>>>>>>>>>>>>*/
+
+/*<<<<<<<<<<<<<<<<<<<<<<<Footer>>>>>>>>>>>>>>>>>>>>>*/
+.footerHead{
+    font-size:14px;
+    color:var(--whiteShade-color);
+    text-transform: uppercase;
+}
+.footerLink{
+    color:var(--generalWhite-color) !important;
+    list-style-type: none;
+}
+.footerLink li{
+    padding-bottom:5px;
+}
+.footPlaceholder::placeholder {
+    font-size:14px;
+    color:var(--warmGrey-color);
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    letter-spacing: 0;
+}
+.sendTreat,
+.sendTreat:hover{
+    background:var(--greenShade3-color);
+    color:var(--generalWhite-color);
+    font-size:14px;
+    border:none !important;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<Footer>>>>>>>>>>>>>>>>>>>>>*/
+
+.loginText{
+    color:var(--greenShade2-color);
+    font-size:24px;
+}
+.existingUser{
+    font-size: 14px;
+    letter-spacing:-0.1px;
+    color:var(--words-color);
+}
+.everibiteBetter{
+    color:var(--blackShade-color);
+    line-height:-0.2px;
+}
+.inputPart ::placeholder{
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    font-size:14px;
+    letter-spacing:-0.3px;
+    color:var(--words-color);
+}
+.forgotPass,.forgotPass:hover{
+    font-size:12px;
+    color:var(--greenShade3-color);
+    letter-spacing:-0.2px;
+    text-decoration: none;
+}
+.loginBtn,.loginBtn:hover{
+    width:125px;
+    color:var(--generalWhite-color);
+    background:var(--greenShade1-color);
+    letter-spacing: -0.5px;
+    font-size:18px!important;
+}
+.loginBtn[disabled],.loginBtn[disabled]:hover{
+    color:var(--generalWhite-color);
+    background:var(--greenShade1-color);
+}
+.fbText,.fbText:hover{
+    font-size:14px;
+    color:var(--generalWhite-color);
+    background:var(--fbColor);
+}
+.glText,.glText:hover{
+    font-size:14px;
+    color:var(--signin-google);
+    background:var(--generalWhite-color);
+    border:1px solid #979797 !important;
+}
+.newUser{
+    font-size:24px;
+    color:var(--greenShade1-color);
+}
+.registerNow{
+    letter-spacing: -0.3px;
+    color:var(--words-color);
+}
+.regBtn,.regBtn:hover{
+    background:var(--greenShade3-color);
+}
+.terms,.terms:hover{
+    color:var(--greenShade3-color);
+    text-decoration: none;
+}
+.wordColor{
+    color:var(--words-color);
+}
+.selectBox{
+    border:1px solid #3a8d1e;
+    border-radius: 3px !important;
+    width:320px !important;
+    background:var(--generalWhite-color);
+}
+.capital{
+    font-family:'Roboto',sans-serif;
+    font-weight:700;
+    font-size:16px !important;
+    color:var(--words-color);
+    letter-spacing:-0.3px;
+}
+.everibiteOrder{
+    color:var(--words-color);
+    line-height:-0.1px;
+}
+.findBite{
+    background:var(--greenShade2-color);
+    line-height:-0.5px;
+    color:var(--generalWhite-color);
+    font-size:18px !important;
+}
+.findBite:hover{
+    color:var(--generalWhite-color);
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<fontSizes>>>>>>>>>>>>>>>>>>>>>*/
+.font18{
+    font-size:18px;
+}
+.font32{
+    font-size:32px;
+}
+.font16{
+    font-size:16px;
+}
+.font14{
+    font-size:14px;
+}
+.font11{
+    font-size:11px;
+}
+.font13{
+    font-size:13px;
+}
+.font24{
+    font-size:24px;
+}
+.font12{
+    font-size:12px;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<fontSizes>>>>>>>>>>>>>>>>>>>>>*/
+.mainBg ::placeholder{
+    font-size:16px;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    letter-spacing:0;
+}
+.locateme{
+    font-size:13px;
+    letter-spacing:-0.3px;
+    color:var(--blackShade-color);
+}
+.locateBelow{
+    font-size:14px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    color:var(--words-color);
+}
+.whyOrder{
+    line-height: 38px;
+    letter-spacing: -0.2px;
+    color:var(--greenShade1-color);
+}
+.DBOHeading{
+    letter-spacing:-0.2px;
+    color:var(--blackShade-color);
+}
+.DBOText{
+    color:var(--DBOText-color);
+    letter-spacing: -0.1px;
+    line-height: 22px;
+}
+.registerRest{
+    line-height: 38px;
+    letter-spacing: -0.2px;
+    color:var(--blackShade-color);
+}
+.findCust{
+    font-size:24px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    color: var(--blackShade-color);
+}
+.getInTouch, 
+.getInTouch:hover{
+    color:var(--greenShade1-color);
+    border-color: var(--greenShade1-color) !important;
+    background: var(--generalWhite-color);
+}
+.carousel-indicators{
+    display:none !important;
+}
+.beforeFood::before{
+    content:open-quote;
+    color:var(--blackShade-color);
+    font-size:1.1em;
+}
+.afterFood::after{
+    content:close-quote;
+    color:var(--blackShade-color);
+    font-size:1.1em;
+}
+.first-col { 
+    background: url('./images/carousel1.jpeg') no-repeat;     
+    background-size: cover; 
+    height: 350px;
+}
+.third-col { 
+    background: url('./images/carousel3.jpg') no-repeat;     
+    background-size: cover; 
+    height: 350px;
+}
+.last-col { 
+    background: url('./images/coffee.jpg') no-repeat; 
+    /*-webkit-background-size: 100% auto; 
+    -moz-background-size: 100% auto; 
+    -o-background-size: 100% auto; */
+    background-size: cover;
+    height: 350px; 
+    width:800px;
+}
+.AccInfo{
+    color:var(--words-color);
+}
+.continueOrder{
+    color:var(--button-color);
+    background:var(--generalWhite-color);
+    border-color:var(--additionalGreen-color) !important;
+    font-size:14px !important;
+}
+.continueOrder:hover{
+    color:var(--generalWhite-color);
+    background:var(--button-color);
+    border-color:var(--additionalGreen-color) !important;
+}
+.custName{
+    color:var(--words-color);
+}
+.editProfile, .editProfile:hover{
+    color:var(--additionalGreen-color);
+    text-transform:uppercase;
+    text-decoration: none;
+}
+.personInfo{
+    font-size:14px;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:var(--words-color);
+}
+.personDetail{
+    font-family:'Roboto',sans-serif;
+    font-weight:500;
+    font-size:14px;
+    color:var(--words-color);
+}
+.deliveryInfo{
+    color:var(--words-color);
+}
+.addr{
+    border:1px solid #cdcccd;
+    color:var(--words-color);
+    border-radius:3px;
+}
+.addr:hover{
+    border:1px solid #6cc018;
+    color:var(--additionalGreen-color);
+    cursor:pointer;
+}
+.DelTime{
+    color:var(--greenShade1-color);
+}
+.addNew,.addNew:hover{
+    background:var(--greenShade3-color);
+    color:var(--generalWhite-color);
+    border-radius:3px;
+    text-transform: uppercase;
+}
+.paymentOpt{
+    color:var(--words-color);
+}
+.proceedPay,.proceedPay:hover{
+    color:var(--generalWhite-color);
+    background:var(--greenShade1-color);
+    text-transform:uppercase;
+    letter-spacing:-0.5px;
+}
+.cardStyle{
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:var(--words-color);
+    font-size:14px;
+}
+.cardStyle input{
+    padding:1.8rem 0.8rem!important;
+}
+.orderSummaryDiv{
+    background:var(--greenShade3-color);
+}
+.itemName{
+    color:var(--words-color);
+    width:209px;
+    word-wrap:break-word;
+}
+.wilson{
+    font-size:11px;
+    color:var(--words-color);
+}
+.priceStyle{
+    letter-spacing: 0.1px;
+    color:var(--greenShade1-color);
+}
+.placeHold ::placeholder{
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    font-size:11px;
+    color:var(--warmGrey-color);
+    letter-spacing:0;
+}
+.itemAmt{
+    font-size:13px;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    line-height: 27px;
+    color:var(--words-color);
+}
+.toPay{
+    line-height: 27px;
+    color:var(--additionalGreen-color);
+}
+.toPayRate{
+    color:var(--greenShade2-color);
+    line-height:27px;
+}
+.couponcode{
+    color:var(--words-color);
+}
+.apply{
+    border:1px solid #3a8d1e !important;
+    color:var(--greenShade1-color);
+    letter-spacing: -0.2px;
+    background: var(--generalWhite-color);
+    width:92px;
+}
+.apply:hover{
+    background:var(--greenShade1-color);
+    color:var(--generalWhite-color);
+}
+.couponInput{
+    border-color:#8f8f8f!important;
+    width:202px !important;
+    padding:14px !important;
+}
+.landInput{
+    border:1px solid #3a8d1e;
+}
+.landInput ::placeholder{
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    font-size:16px;
+    letter-spacing: -0.3px;
+    color:var(--words-color);
+}
+.findBites,.findBites:hover{
+    color:var(--generalWhite-color);
+    background: var(--greenShade2-color);
+    width:125px;
+    border-radius: 3px;
+}
+.offers{
+    font-size:20px;
+    line-height:22px;
+    letter-spacing: 0.1px;
+    color:var(--words-color);
+    width:70px;
+    word-wrap: break-word;
+}
+.sideNavText{
+    font-family:'Viga',sans-serif;
+    font-size:20px;
+    line-height: 26px;
+    letter-spacing: 0.1px;
+    color:var(--words-color);
+}
+.sideNavText p{
+    width:135px;
+    line-height: 16px!important;
+}
+.watermark
+  {
+  background:url('./images/ITS.png') no-repeat;
+  background-position:center center;
+  }
+.static-modal .modal-content{
+    background: var(--mainbg-color);
+}
+.menuName{
+    font-family:'Viga',sans-serif;
+    font-size:16px;
+    letter-spacing: 0;
+    color:var(--words-color);
+    width:209px;
+}
+.menuType{
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    font-size:13px;
+    color:var(--words-color);
+    width:122px;
+}
+.restName{
+    font-family:'Roboto',sans-serif;
+    font-weight:700;
+    font-size:11px;
+    color:var(--words-color);
+}
+.placeStyle{
+    font-size:14px;
+    outline:1px solid #3a8d1e;
+    background:var(--generalWhite-color);
+    border:none;
+    margin:3px 10px 0 2px;
+}
+.placeStyle:hover{
+    background:var(--greenShade2-color);
+    color:var(--generalWhite-color);
+}
+.modal-content{
+    background:url('./images/ITS.png') no-repeat;
+    background-position:center center;
+}
+.hoverShow{
+    display: none;
+    text-transform: uppercase;
+}
+.cards:hover{
+    border:2px solid #6cc018;
+}
+.cards:hover .hoverShow{
+    display:block;
+}
+.itemImg{
+    position: relative;
+}
+.filledHeart{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+.thankyou{
+    line-height:32px;
+    color:var(--greenShade3-color);
+}
+.trackOrder,.trackOrder:hover{
+    font-family:'Viga',sans-serif;
+    font-size:14px !important;
+    color:var(--generalWhite-color);
+    background:var(--greenShade3-color);
+}
+.orderInfo{
+    color:var(--greenShade1-color);
+}
+.deliveryLoc{
+    letter-spacing: 0.1px;
+    color:var(--greenShade1-color);
+}
+.addressText p{
+    margin-bottom:0 !important;
+    line-height:18px;
+}
+.payInfo{
+    letter-spacing: 0.1px;
+    color: var(--greenShade1-color);
+}
+.resendIp{
+    width:138px !important;
+    padding:21px !important;
+    border-radius:7px !important;
+}
+.verifyBtn,.verifyBtn:hover,.verifyBtn:focus{
+    font-size:18px !important; 
+    color:var(--generalWhite-color);
+    letter-spacing: -0.1px;
+    background:var(--greenShade1-color);
+}

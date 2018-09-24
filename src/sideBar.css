@@ -1,0 +1,14 @@
+.sideBar .nav-pills > li > a{
+	color:#666;
+	width:200px;
+}
+.sideBar .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{
+	color:#fff;
+	background-color:#3a8d1e !important;
+	border-bottom-right-radius:50px;
+	border-top-right-radius:3px;
+}
+.nav-pills > li > a:hover{
+	color:#3a8d1e;
+	background:transparent!important;
+}

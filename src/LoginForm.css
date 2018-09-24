@@ -1,0 +1,31 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+.fade:not(.show) {
+    opacity: 1 !important;
+}
+.modal-content {
+	margin-top:20rem;
+}
+.Login {
+
+    padding: 30px 0 !important;
+
+}
+::placeholder {
+    letter-spacing:2px;
+    font-size:0.85em;
+}
+input[type=text],input[type=email],input[type=password],input[type=tel]{
+ font-size:1.8em;
+ margin-bottom:2rem;
+border-radius:3px !important;
+}
+
